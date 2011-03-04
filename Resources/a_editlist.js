@@ -4,7 +4,7 @@ var a_editList = function(){
 	var a_viewListTopbar = Ti.UI.createView({left:0,right:0,top:0,height:44,backgroundImage:'navbarbg.png'});
 	var a_viewTitle = Ti.UI.createLabel({ text:'Edit Subjects',color:'#61290C',height:30,font:{fontFamily:'Arial-BoldMT',fontSize:20}});
 	var a_viewListTable = Ti.UI.createTableView({backgroundColor:'white',top:44});
-	var addButton = Ti.UI.createImageView({image:'a_add.png',top:9,right:5});
+	var addButton = Ti.UI.createButton({image:'a_add.png',top:9,right:5});
 	a_viewListTopbar.add(a_viewTitle);
 	a_view.add(a_viewListTopbar);
 	a_view.add(a_viewListTable);

@@ -13,7 +13,7 @@ var viewChaptertWindow = function(subjectId){
 	a_viewListTopbar.add(a_viewTitle);
 	var navbarShadow = Ti.UI.createImageView({backgroundImage:'nav-bar-shadow.png', width:1024, height:11,top:44});
 
-	var backButton = Ti.UI.createImageView({image:'subjects-back.png',top:9,left:5});
+	var backButton = Ti.UI.createButton({image:'subjects-back.png',top:9,left:5});
 	
 	var viewSubjectsTitle = Ti.UI.createLabel({text:'Name of Subject',left:20,top:55,color:'black'});
 	var viewSubjectsView = Ti.UI.createView({backgroundColor:'white',left:10,right:10,height:40,top:80,borderColor:'#ababab',borderWidth:1,borderRadius:7});

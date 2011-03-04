@@ -5,7 +5,7 @@ var flashCardsWindow = function(title,chapterId){
 	var a_bottombar = Ti.UI.createView({left:0,right:0,bottom:0,height:47,backgroundImage:'a_bottombar.png'});
 	var a_viewTitle = Ti.UI.createLabel({ text:'Chapters',color:'#61290C',height:30,font:{fontFamily:'Arial-BoldMT',fontSize:20}});
 	a_topbar.add(a_viewTitle);
-	var backButton = Ti.UI.createImageView({image:'a_chaps.png',top:9,left:5});
+	var backButton = Ti.UI.createButton({image:'a_chaps.png',top:9,left:5});
 	var flipButton = Ti.UI.createButton({backgroundImage:'flip.png',top:9,right:5,width:48,height:30});
 	var randButton = Ti.UI.createButton({backgroundImage:'a_random.png',bottom:8,left:5,width:99,height:30});
 	var nameButton = Ti.UI.createButton({backgroundImage:'a_byname.png',bottom:8,right:5,width:99,height:30});

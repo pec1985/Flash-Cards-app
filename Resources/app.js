@@ -42,8 +42,8 @@ else {
 	var a_bottomTab1 = Ti.UI.createView({left:20, width:120, height:48, bottom:0, backgroundImage:'a_tab1.png' });
 	var a_bottomTab2 = Ti.UI.createView({right:20, width:120, height:48, bottom:0 });
 	
-	var a_bottomTab1Image = Ti.UI.createImageView({image:'icon1s.png',bottom:18});
-	var a_bottomTab2Image = Ti.UI.createImageView({image:'icon2.png',bottom:18});
+	var a_bottomTab1Image = Ti.UI.createImageView({image:'icon1s.png',bottom:18,width:30,height:30});
+	var a_bottomTab2Image = Ti.UI.createImageView({image:'icon2.png',bottom:18,width:30,height:30});
 	
 	
 	var a_bottomTab1Text = Ti.UI.createLabel({text:'Study',bottom:0,color:'white'});
